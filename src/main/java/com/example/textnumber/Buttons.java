@@ -14,7 +14,7 @@ public class Buttons {
     static int DigitSum(String textNum){
         int sum = 0;
         for(int i = 0; i < textNum.length(); i++){
-            if(textNum.charAt(i) >= 49 && textNum.charAt(i) <= 57 ){
+            if(textNum.charAt(i) >= 49 && textNum.charAt(i) <= 57){
                 sum += Integer.parseInt(textNum.substring(i, i + 1));
             }
         } return sum;

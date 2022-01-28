@@ -14,7 +14,6 @@ import java.io.IOException;
 public class TextNumberApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        System.out.println("");
         FXMLLoader fxmlLoader = new FXMLLoader(TextNumberApplication.class.getResource("text-number.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 500, 500);
 
